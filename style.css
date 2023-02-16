@@ -1,0 +1,50 @@
+body{
+    background: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=2000")
+                no-repeat fixed;
+    background-size: cover;
+
+}
+.container{
+    background: url("https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png")
+    no-repeat fixed;
+    background-size: cover;
+    padding: 10px;
+}
+h1{
+    background-color: #123880;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin:10px 30%;
+    padding: 10px;
+}
+h2{
+    background-color: #efeaef;
+    text-align: center;
+    border-radius: 10px;
+    margin:10px 0;
+    padding: 10px;
+}
+.goods{
+    margin: 20px 0;
+}
+.goods div{
+    margin: 5px 0;
+}
+/*  что бы все карточкики были одного размера*/
+.card img{
+    object-fit: cover;
+    object-position: top; /*если фото высокое, то центрируется верх*/
+    height: 190px;
+}
+.card{
+    transition: .5s;
+}
+.goods .card:hover{
+    transform: scale(1.03);
+    transition: .5s;
+}
+.btn{
+    background-color: #123880;
+}
+
